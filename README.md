@@ -25,3 +25,8 @@ Manually trigger a backup:
 ```
 docker compose exec backups backup now
 ```
+
+# Projects used
+
+- https://github.com/itzg/docker-minecraft-server
+- https://github.com/itzg/docker-mc-backup
