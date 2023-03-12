@@ -21,8 +21,8 @@ services:
   backups:
     image: itzg/mc-backup
     environment:
-      BACKUP_INTERVAL: "2h"
       RCON_HOST: mc
+      PAUSE_IF_NO_PLAYERS: true
       PRE_BACKUP_SCRIPT: |
         echo "Backing up from $$RCON_HOST to $$DEST_DIR"
       POST_BACKUP_SCRIPT_FILE: /post-backup.sh
