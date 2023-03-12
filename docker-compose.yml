@@ -34,4 +34,5 @@ services:
       - ./post-backup.sh:/post-backup.sh:ro
     network_mode: "service:mc"
 volumes:
-  mc: {}
+  mc:
+    external: true
