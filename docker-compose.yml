@@ -34,3 +34,5 @@ services:
 volumes:
   mc:
     external: true
+  backups:
+    external: true
