@@ -15,6 +15,6 @@ services:
     tty: true
     stdin_open: true
     restart: unless-stopped
-  volumes:
-    minecraftdata:
-      external: true
+volumes:
+  minecraftdata:
+    external: true
