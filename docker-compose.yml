@@ -34,4 +34,4 @@ services:
       - ./post-backup.sh:/post-backup.sh:ro
     network_mode: "service:mc"
 volumes:
-  minecraft: {}
+  mc: {}
