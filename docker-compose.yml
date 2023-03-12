@@ -28,8 +28,6 @@ services:
       POST_BACKUP_SCRIPT_FILE: /post-backup.sh
     volumes:
       - mc:/data:ro
-      - mc:/mods:ro
-      - mc:/plugins:ro
       - ./backups:/backups
       - ./post-backup.sh:/post-backup.sh:ro
     network_mode: "service:mc"
