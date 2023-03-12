@@ -12,6 +12,7 @@ services:
       OPS: "bill_ferny"
       ENABLE_WHITELIST: "TRUE"
       ENFORCE_WHITELIST: "TRUE"
+      VERSION: "1.19.2"
     tty: true
     stdin_open: true
     restart: unless-stopped
