@@ -17,6 +17,7 @@ services:
       VERSION: "1.19.2"
       SNOOPER_ENABLED: false
       MEMORY: "4G"
+      EXTRA_ARGS: "--nogui"
     tty: true
     stdin_open: true
     restart: unless-stopped
