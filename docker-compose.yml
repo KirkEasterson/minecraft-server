@@ -18,6 +18,7 @@ services:
       SNOOPER_ENABLED: false
       MEMORY: "4G"
       EXTRA_ARGS: "--nogui"
+      JVM_XX_OPTS: "-XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
     tty: true
     stdin_open: true
     restart: unless-stopped
