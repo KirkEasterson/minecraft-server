@@ -16,7 +16,7 @@ services:
       ENFORCE_WHITELIST: "TRUE"
       VERSION: "1.19.2"
       SNOOPER_ENABLED: false
-      MEMORY: "16G"
+      MEMORY: "4G"
     tty: true
     stdin_open: true
     restart: unless-stopped
